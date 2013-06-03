@@ -1,4 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Firefox\Extensions]
-"helloworld@xulschool.com"="E:\\source\\all\\ffextens\\sample\\2\\xulschoolhello1"
