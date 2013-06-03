@@ -1,0 +1,10 @@
+content	weibo jar:chrome/weibo.jar!/content/
+locale	weibo	en-US	jar:chrome/weibo.jar!/locale/en-US/
+locale	weibo	zh-CN	jar:chrome/weibo.jar!/locale/zh-CN/
+
+overlay	chrome://browser/content/browser.xul	chrome://weibo/content/main.xul
+
+##category profile-after-change WeiboComponent @weibo.com/weibocomponent;1
+contract @weibo.com/weibocomponent;1 {a7fd39a5,5f8b,4d14,9e13,23cdc1903827}
+
+

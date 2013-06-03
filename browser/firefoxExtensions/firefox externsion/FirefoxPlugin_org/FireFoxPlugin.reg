@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Firefox\Extensions]
+"weibodesktop@sina.com"="E:\\source\\all\\firefox externsion\\FirefoxPlugin_org"

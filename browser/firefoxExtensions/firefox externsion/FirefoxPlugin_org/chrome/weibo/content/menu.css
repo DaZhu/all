@@ -1,0 +1,67 @@
+.weiboshare{
+  list-style-image: url("share.gif");
+}
+
+div.WeiboDblClkShrBtn {
+	position:absolute;
+	color: cyan;
+	display:block;
+	font: normal 12px arial, sans-serif;
+	text-align: center;
+	width: 100px;
+	height: 15px;
+	visibility: 1;
+	opacity: 50%;
+	overflow: hidden;
+	background-color: yellow;
+	vertical-align: middle;
+	z-index: 99999999;
+}
+
+div.WeiboShareFlashBtn {
+	position:absolute;
+	color: yellow;
+	display:block;
+	font: normal 12px arial, sans-serif;
+	text-align: center;
+	width: 100px;
+	height: 15px;
+	visibility: 1;
+	opacity: 50%;
+	overflow: hidden;
+	background-color: blue;
+	vertical-align: middle;
+	z-index: 99999999;
+}
+
+div.WeiboShrImgBtn {
+	position:absolute;
+	color: black;
+	display:block;
+	font: normal 12px arial, sans-serif;
+	text-align: center;
+	width: 100px;
+	height: 15px;
+	visibility: 1;
+	opacity: 50%;
+	overflow: hidden;
+	background-color: red;
+	vertical-align: middle;
+	z-index: 99999999;
+}
+
+div.ShareSelBtn {
+	position:absolute;
+	color: white;
+	display:block;
+	font: normal 12px arial, sans-serif;
+	text-align: center;
+	width: 100px;
+	height: 15px;
+	visibility: 1;
+	opacity: 50%;
+	overflow: hidden;
+	background-color: green;
+	vertical-align: middle;
+	z-index: 99999999;
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?> 
+<?xml-stylesheet href="menu.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://weibo/locale/weibo.dtd" >
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="main.js"/>
+	<popup id="contentAreaContextMenu" onpopupshowing="if(event.target != this) {return true;} gContextMenu=new nsContextMenu(this,window.getBrowser()); return gContextMenu.shouldDisplay;">
+		<menuseparator id="ThunderDownload_Up" insertbefore="context-sep-properties"/>
+		<menuitem id="WeiboShare" label="&weiboshare;" insertbefore="context-sep-properties" oncommand="OnWeiboSendMes(event);" class="menuitem-iconic weiboshare"/>
+	</popup>
+</overlay>

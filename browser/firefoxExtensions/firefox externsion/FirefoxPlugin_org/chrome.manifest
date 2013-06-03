@@ -1,0 +1,8 @@
+content	weibo chrome/weibo/content/
+locale	weibo	en-US	chrome/weibo/locale/en-US/
+locale	weibo	zh-CN	chrome/weibo/locale/zh-CN/
+
+overlay chrome://browser/content/browser.xul chrome://weibo/content/main.xul
+
+##category profile-after-change WeiboComponent @weibo.com/weibocomponent;1
+##contract @weibo.com/weibocomponent;1 {a7fd39a5,5f8b,4d14,9e13,23cdc1903827}

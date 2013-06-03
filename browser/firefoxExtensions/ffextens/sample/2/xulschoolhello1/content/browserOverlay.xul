@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://xulschoolhello/skin/browserOverlay.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://xulschoolhello/locale/browserOverlay.dtd">
+
+<overlay id="xulschoolhello-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <popup id="contentAreaContextMenu">
+		<menuitem 
+			id="WeiboShare" 
+			label="&weiboshare;" 
+			insertbefore="context-sep-properties" 
+		/>
+  </popup>
+</overlay>
